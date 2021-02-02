@@ -6,3 +6,8 @@ console.log('indexOF: ', getNumber[3]);
 
 let fun = undefined;
 console.log('undefined: ', fun);
+
+function addNumbers(number1, number2) {
+    console.log('notGetNumber:', number2);
+}
+let pushResult = addNumbers(10);
