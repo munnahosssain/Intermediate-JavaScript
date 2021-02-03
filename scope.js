@@ -9,7 +9,7 @@ function sum(firstNum, secondNum) {
     console.log(day);
     
     if (result > 10) {
-        let days = "friday";//when called 'let' we can should inside console.log
+        let days = "friday";//when called 'let' we can should inside a condition
         console.log(days);
     }
     return result;
