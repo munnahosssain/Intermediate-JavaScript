@@ -9,7 +9,9 @@ function sum(firstNum, secondNum) {
     console.log(day);
     
     if (result > 10) {
-        let days = "friday";//when called 'let' we can should inside a condition
+        let days = "friday";
+        /*when called 'let' we can should inside a condition
+        Can you access the let variable outside of the block scope? = No*/
         console.log(days);
     }
     return result;

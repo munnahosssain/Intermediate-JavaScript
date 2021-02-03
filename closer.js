@@ -1,6 +1,10 @@
 function stopWatch() {
     let count = 0;
-    return function () { // function inside function returned that's is closer environment
+    return function () { 
+        /*(function inside function returned that's
+         is closer environment)
+        (CALL A FUNCTION INSIDE A FUNCTION OR 
+        RETURN A FUNCTION FROM ANOTHER FUNCTION)*/
         count++;
         return count;
     }
